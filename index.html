@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor.js" defer></script>
+  <script src="scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <h1 class="Heading text-justify container-fluid">Calculator</h1>
+  <div class="user">
+    <form>
+      <input type="number" id="inputNumber">
+    </form>
+    <br>
+    <button type="button" id="btn-add" class="buttons">+</button>
+    <button type="button" id="btn-subtract" class="buttons">-</button>
+    <button type="button" id="btn-multiply" class="buttons">*</button>
+    <button type="button" id="btn-divide" class="buttons">/</button>
+    <button type="button" id="btn-clear" class="buttons">CLEAR</button>
+  </div>
+  <div class="resultBlock">
+    <h3>Calculation: <span id="currentCalculation">0</span></h3>
+    <br>
+    <h3>Result: <span id="currentResult">0</span></h3>
+  </div>
+
+</body>
+
+</html>
